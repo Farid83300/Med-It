@@ -1,0 +1,19 @@
+/*------------------------------------------------------------------
+Brands
+-------------------------------------------------------------------*/
+.oew-brands .oew-brands-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+.oew-brands .oew-brands-item {
+  width: 25%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+.oew-brands .oew-brands-name {
+  margin: 10px 0 5px;
+}
+.oew-brands .oew-brands-desc {
+  color: #777;
+}/*# sourceMappingURL=style.css.map */

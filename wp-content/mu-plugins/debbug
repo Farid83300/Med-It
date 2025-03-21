@@ -1,0 +1,12 @@
+<?php
+/**
+ * Plugin Name: Correction de la dépréciation get_class
+ * Description: Supprime l'avertissement de dépréciation pour get_class() sans arguments
+ * Version: 1.0
+ */
+
+// Appliquer cette correction uniquement si la version PHP est 8.0 ou supérieure
+if (version_compare(PHP_VERSION, '8.0.0', '>=')) {
+    // Définir le rapport d'erreur pour ignorer les avertissements de dépréciation
+    error_reporting(E_ALL & ~E_DEPRECATED);
+}

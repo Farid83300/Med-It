@@ -1,0 +1,56 @@
+/*------------------------------------------------------------------
+Hotspots
+-------------------------------------------------------------------*/
+.oew-hotspots-wrap {
+  position: relative;
+}
+
+.oew-hotspot-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.oew-hotspot-inner {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  cursor: pointer;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+.oew-hotspot-inner, .oew-hotspot-inner:before {
+  display: block;
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+}
+.oew-hotspot-inner,
+.oew-hotspot-inner i {
+  line-height: 40px;
+}
+.oew-hotspot-inner:hover {
+  color: #fff;
+}
+.oew-hotspot-inner:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transform: scale(1);
+  animation: 2s pulse infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}/*# sourceMappingURL=style.css.map */

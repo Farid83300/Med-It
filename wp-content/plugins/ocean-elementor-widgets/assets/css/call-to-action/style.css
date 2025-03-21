@@ -1,0 +1,69 @@
+/*------------------------------------------------------------------
+Call To Action
+-------------------------------------------------------------------*/
+.oew-call-to-action {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.oew-call-to-action-title {
+  width: 100%;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.oew-call-to-action-description p {
+  margin: 0;
+}
+.oew-call-to-action-btn a {
+  padding: 20px 40px;
+  font-size: 15px;
+}
+.oew-call-to-action .oew-button-icon i, .oew-call-to-action .oew-button-icon svg {
+  width: 1em;
+  height: 1em;
+  position: relative;
+  vertical-align: middle;
+}
+
+.oew-call-to-action-left .oew-call-to-action,
+.oew-call-to-action-right .oew-call-to-action {
+  align-items: center;
+}
+.oew-call-to-action-left .oew-call-to-action .oew-call-to-action-text,
+.oew-call-to-action-right .oew-call-to-action .oew-call-to-action-text {
+  flex: 1;
+}
+
+.oew-call-to-action-left .oew-call-to-action {
+  text-align: right;
+}
+.oew-call-to-action-left .oew-call-to-action .oew-call-to-action-btn {
+  order: -1;
+  padding-right: 60px;
+}
+
+.oew-call-to-action-right .oew-call-to-action .oew-call-to-action-btn {
+  padding-left: 60px;
+}
+
+.oew-call-to-action-center .oew-call-to-action {
+  text-align: center;
+}
+.oew-call-to-action-center .oew-call-to-action .oew-call-to-action-btn {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/*------------------------------------------------------------------
+Responsive
+-------------------------------------------------------------------*/
+@media (max-width: 959px) {
+  .oew-call-to-action-btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 !important;
+  }
+  .oew-call-to-action-left .oew-call-to-action .oew-call-to-action-btn {
+    order: 1;
+  }
+}/*# sourceMappingURL=style.css.map */

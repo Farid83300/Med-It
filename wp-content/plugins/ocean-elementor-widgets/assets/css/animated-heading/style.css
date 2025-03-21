@@ -1,0 +1,29 @@
+/*------------------------------------------------------------------
+Animated Heading
+-------------------------------------------------------------------*/
+.oew-heading-wrap .oew-heading-tag,
+.oew-heading-wrap .oew-pre-heading,
+.oew-heading-wrap .oew-animated-heading,
+.oew-heading-wrap .oew-post-heading,
+.oew-heading-wrap span {
+  display: inline-block;
+}
+.oew-heading-wrap .oew-heading-tag {
+  margin: 0;
+}
+.oew-heading-wrap .typed-cursor {
+  opacity: 1;
+  font-weight: 100;
+  animation: typed-blink 0.7s infinite;
+}
+@keyframes typed-blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=style.css.map */
